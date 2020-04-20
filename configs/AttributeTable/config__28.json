@@ -1,0 +1,304 @@
+{
+  "layerInfos": [
+    {
+      "name": "School_Districts",
+      "id": "School_Districts_8620",
+      "layer": {
+        "url": "https://services6.arcgis.com/BFglxCqqzvDsVb2A/arcgis/rest/services/School_Districts/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": false
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "GlobalID",
+            "alias": "GlobalID",
+            "show": true
+          },
+          {
+            "name": "SCHOOL_DIS",
+            "alias": "SCHOOL_DIS",
+            "show": true
+          },
+          {
+            "name": "last_edite",
+            "alias": "last_edite",
+            "show": true
+          },
+          {
+            "name": "SCHOOLCODE",
+            "alias": "SCHOOLCODE",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "SCHOOL_DIS",
+      "isDescending": false
+    },
+    {
+      "name": "Voter_Precincts",
+      "id": "Voter_Precincts_34",
+      "layer": {
+        "url": "https://services6.arcgis.com/BFglxCqqzvDsVb2A/arcgis/rest/services/Voter_Precincts/FeatureServer/0",
+        "fields": [
+          {
+            "show": true,
+            "name": "FID",
+            "alias": "FID"
+          },
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "PRECINCT",
+            "alias": "PRECINCT"
+          },
+          {
+            "show": false,
+            "name": "TWP",
+            "alias": "TWP"
+          },
+          {
+            "show": false,
+            "name": "MUNI",
+            "alias": "MUNI"
+          },
+          {
+            "show": false,
+            "name": "WARD",
+            "alias": "WARD"
+          },
+          {
+            "show": false,
+            "name": "JR_COLLEGE",
+            "alias": "JR_COLLEGE"
+          },
+          {
+            "show": false,
+            "name": "SPECIAL_SC",
+            "alias": "SPECIAL_SC"
+          },
+          {
+            "show": false,
+            "name": "FIRE_DISTR",
+            "alias": "FIRE_DISTR"
+          },
+          {
+            "show": true,
+            "name": "SCHOOL_DIS",
+            "alias": "SCHOOL_DIS"
+          },
+          {
+            "show": false,
+            "name": "LIBRARY_DI",
+            "alias": "LIBRARY_DI"
+          },
+          {
+            "show": false,
+            "name": "LIGHT_DIST",
+            "alias": "LIGHT_DIST"
+          },
+          {
+            "show": false,
+            "name": "MISC_DISTR",
+            "alias": "MISC_DISTR"
+          },
+          {
+            "show": false,
+            "name": "US_CONGRES",
+            "alias": "US_CONGRES"
+          },
+          {
+            "show": false,
+            "name": "STATE_REP",
+            "alias": "STATE_REP"
+          },
+          {
+            "show": false,
+            "name": "STATE_SENA",
+            "alias": "STATE_SENA"
+          },
+          {
+            "show": false,
+            "name": "COUNTY_COU",
+            "alias": "COUNTY_COU"
+          },
+          {
+            "show": false,
+            "name": "SEQ_NUMBER",
+            "alias": "SEQ_NUMBER"
+          },
+          {
+            "show": false,
+            "name": "last_edite",
+            "alias": "last_edite"
+          },
+          {
+            "show": false,
+            "name": "Shapearea",
+            "alias": "Shapearea"
+          },
+          {
+            "show": false,
+            "name": "Shapelen",
+            "alias": "Shapelen"
+          },
+          {
+            "show": false,
+            "name": "LEAD_PRECI",
+            "alias": "LEAD_PRECI"
+          },
+          {
+            "show": false,
+            "name": "REPORTED",
+            "alias": "REPORTED"
+          },
+          {
+            "show": false,
+            "name": "STATUS",
+            "alias": "STATUS"
+          },
+          {
+            "show": true,
+            "name": "PRECINCTID",
+            "alias": "PRECINCTID"
+          },
+          {
+            "show": false,
+            "name": "SPLIT",
+            "alias": "SPLIT"
+          },
+          {
+            "show": false,
+            "name": "SEWER_DIST",
+            "alias": "SEWER_DIST"
+          },
+          {
+            "show": false,
+            "name": "TRANSDEV_D",
+            "alias": "TRANSDEV_D"
+          },
+          {
+            "show": false,
+            "name": "COMMIMP_DI",
+            "alias": "COMMIMP_DI"
+          },
+          {
+            "show": false,
+            "name": "NOVOTEPREC",
+            "alias": "NOVOTEPREC"
+          },
+          {
+            "show": true,
+            "name": "POLLINGPLA",
+            "alias": "POLLINGPLA"
+          },
+          {
+            "show": false,
+            "name": "ROADIMP_DI",
+            "alias": "ROADIMP_DI"
+          },
+          {
+            "show": true,
+            "name": "BALLOTSTYL",
+            "alias": "BALLOTSTYL"
+          },
+          {
+            "show": false,
+            "name": "RV_COUNT",
+            "alias": "RV_COUNT"
+          },
+          {
+            "show": false,
+            "name": "RV_TURNOUT",
+            "alias": "RV_TURNOUT"
+          },
+          {
+            "show": false,
+            "name": "RV_TURNO_1",
+            "alias": "RV_TURNO_1"
+          },
+          {
+            "show": false,
+            "name": "RV_DATE",
+            "alias": "RV_DATE"
+          },
+          {
+            "show": false,
+            "name": "PREV_POLLI",
+            "alias": "PREV_POLLI"
+          },
+          {
+            "show": false,
+            "name": "PREV_ELECT",
+            "alias": "PREV_ELECT"
+          },
+          {
+            "show": false,
+            "name": "Shape__Area",
+            "alias": "Shape__Area"
+          },
+          {
+            "show": false,
+            "name": "Shape__Length",
+            "alias": "Shape__Length"
+          }
+        ]
+      },
+      "show": null,
+      "showAttachments": false,
+      "sortField": "SCHOOL_DIS",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": true,
+  "initiallyExpand": false,
+  "filterByMapExtent": true,
+  "allowTextSelection": true,
+  "syncWithLayers": true
+}
